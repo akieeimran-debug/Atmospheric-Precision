@@ -1,0 +1,6 @@
+{
+  "name": "Atmospheric Precision",
+  "description": "High-precision meteorological intelligence interface with optical glassmorphism, Doppler radar sweeps, and deep environmental telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

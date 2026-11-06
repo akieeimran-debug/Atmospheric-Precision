@@ -1,0 +1,218 @@
+---
+name: Atmospheric Precision
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#b9cacb'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#849495'
+  outline-variant: '#3a494b'
+  surface-tint: '#00dce6'
+  primary: '#e0fdff'
+  on-primary: '#00373a'
+  primary-container: '#00f2fe'
+  on-primary-container: '#006a70'
+  inverse-primary: '#00696f'
+  secondary: '#7bd0ff'
+  on-secondary: '#00354a'
+  secondary-container: '#00a6e0'
+  on-secondary-container: '#00374d'
+  tertiary: '#fff5f1'
+  on-tertiary: '#4f2500'
+  tertiary-container: '#ffd2b4'
+  on-tertiary-container: '#964b00'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#6ff6ff'
+  primary-fixed-dim: '#00dce6'
+  on-primary-fixed: '#002022'
+  on-primary-fixed-variant: '#004f53'
+  secondary-fixed: '#c4e7ff'
+  secondary-fixed-dim: '#7bd0ff'
+  on-secondary-fixed: '#001e2c'
+  on-secondary-fixed-variant: '#004c69'
+  tertiary-fixed: '#ffdcc5'
+  tertiary-fixed-dim: '#ffb783'
+  on-tertiary-fixed: '#301400'
+  on-tertiary-fixed-variant: '#713700'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  display-hero:
+    fontFamily: Space Grotesk
+    fontSize: 96px
+    fontWeight: '300'
+    lineHeight: 96px
+    letterSpacing: -0.04em
+  display-hero-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 64px
+    fontWeight: '300'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  headline-xl:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '500'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Geist
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  data-metric:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  label-md:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Geist
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  gutter-lg: 2rem
+  margin: 1rem
+  margin-md: 2rem
+  margin-lg: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system delivers an atmospheric, high-precision weather intelligence interface. It targets users who value immediate situational awareness, meteorological clarity, and visual serenity over visual clutter. 
+
+The aesthetic synthesizes Scandinavian functional minimalism with restrained, optical glassmorphism. It mimics the ethereal qualities of the atmosphere—clear skies, thin vapor, dense cloud covers, and horizon glow—using deep nocturnal palettes contrasted against crisp data readouts. Interfaces feel airy, uncluttered, and weightless, maintaining maximum legibility across complex environmental telemetry such as barometric pressure gradients, wind velocity vectors, and precipitation probability curves.
+
+## Colors
+
+The system uses a dark-first color hierarchy rooted in deep midnight slates and stratospheric blues, creating a high-contrast canvas for luminous meteorological tokens.
+
+- **Primary (`#00F2FE` - Cyan Auroral):** Used for focal telemetry highlights, primary interactive anchors, live timeline indicators, and critical radar sweeps.
+- **Secondary (`#38BDF8` - Stratosphere Sky):** Applied to secondary metric graphs, wind and humidity vector visualizations, and standard interactive states.
+- **Tertiary (`#FB923C` - Solar Amber / Severe Coral):** Reserved strictly for thermal extremes, UV hazard alerts, advisory warnings, and air quality index spikes.
+- **Neutral (`#0F172A` - Midnight Slate):** The structural foundation. Extends across surfaces using tonal steps:
+  - Canvas Base: `#080C14`
+  - Glass Surface Base: `rgba(15, 23, 42, 0.65)`
+  - Surface Raised / Card Fill: `rgba(30, 41, 59, 0.45)`
+  - Structural Borders: `rgba(255, 255, 255, 0.08)`
+  - Text High-Emphasis: `#F8FAFC` (Cool Ice White)
+  - Text Medium-Emphasis: `#94A3B8` (Mist Gray)
+  - Text Low-Emphasis: `#475569` (Overcast Slate)
+
+## Typography
+
+The typographic hierarchy juxtaposes the geometric character of **Space Grotesk** with the neutral clarity of **Geist**.
+
+- **Space Grotesk** governs temperatures, hero conditions, station identifiers, and primary telemetry figures. Its light font-weight at massive scales creates an airy feel, while its structural cuts deliver a technical edge.
+- **Geist** handles continuous prose, meteorological condition descriptions, tabular timestamps, and micro-labels. Its engineered proportions ensure complete legibility against blurred backdrops and faint ambient gradients.
+- Micro labels and metadata metrics utilize uppercase transformations with expanded letter spacing to ensure scannability in direct outdoor light conditions.
+
+## Layout & Spacing
+
+The layout is built upon an 8-point vertical baseline and an adaptive fluid grid structured to display high-density weather metrics without crowding:
+
+- **Mobile (< 768px):** 4-column fluid grid, `margin: 1rem` (`margin`), `gutter: 1rem` (`gutter`). Single-column hero stacks followed by horizontal scroll snapping for hourly strips, transitioning to 2-column micro-metric grids.
+- **Tablet (768px - 1024px):** 8-column fluid grid, `margin-md: 2rem`, `gutter-md: 1.5rem`. Two-column asymmetric view pairing primary radar/visual conditions alongside weekly forecast tables.
+- **Desktop (> 1024px):** 12-column fluid grid capped at a maximum width of `1440px`, `margin-lg: 3rem`, `gutter-lg: 2rem`. Three-column master display: Left rail for multi-location switching, center stage for primary conditions and temporal charts, right rail for deep environmental telemetry (AQI, UV, dew point, pressure trends).
+
+## Elevation & Depth
+
+Depth is established strictly via frosted glass refraction, luminous edge lighting, and atmospheric occlusion rather than heavy drop shadows:
+
+- **Level 0 (Canvas Base):** Solid deep midnight foundation (`#080C14`) with ambient, slowly shifting atmospheric gradient meshes representing dawn, storm front, daylight, or twilight states.
+- **Level 1 (Surface Glass / Cards):** Background blur of `20px` to `24px` backdrop-filter with `rgba(15, 23, 42, 0.65)` fill. Encased in a `1px` hairline boundary using `linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 100%)`.
+- **Level 2 (Overlays / Modals / Active Tooltips):** Background blur of `32px` with `rgba(15, 23, 42, 0.85)` fill. Border opacity increases to `rgba(255, 255, 255, 0.20)`, combined with a subtle inner edge glow: `box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), 0 16px 40px -12px rgba(0, 0, 0, 0.50)`.
+- **Level 3 (Alert Callouts):** Infused with ambient tinted back-glows. Amber/coral elements project a soft, low-opacity colored aura (`rgba(251, 146, 60, 0.15)`) with an outer blur of `32px`.
+
+## Shapes
+
+The design system standardizes on generous, organic curvatures to balance its technical typography and sharp telemetry data:
+
+- **Containers & Metric Cards:** Standardized on `rounded-2xl` (`1.5rem` / `24px`) to establish a soft, ergonomic visual frame.
+- **Inner Sub-Modules & Embedded Graphs:** Use `rounded-lg` (`1rem` / `16px`) to preserve geometric concentricity when nested inside `rounded-2xl` containers.
+- **Badges, Status Pills & Input Controls:** Styled with full continuous pill geometry (`rounded-full`) to differentiate interactive chips and status warnings from metric content frames.
+
+## Components
+
+### Metric Cards
+Metric cards are the core data containers. Built using Level 1 glass surfaces with `rounded-2xl` curvature and internal padding set to `space-lg`. Cards display the metric category in `label-sm` Mist Gray at the top-left, an optional secondary status icon at the top-right, the main reading in `data-metric` Ice White, and an inline visual aid (e.g., mini sparkline, circular gauge, or wind compass) at the bottom.
+
+### Buttons
+- **Primary:** High-luminance Cyan Auroral fill (`#00F2FE`), text in `#080C14` with `label-md` weight. Full pill border radius (`9999px`), padding: `0.75rem 1.5rem`. Subtle hover glow (`box-shadow: 0 0 20px rgba(0, 242, 254, 0.35)`).
+- **Secondary (Ghost Glass):** Level 1 glass fill, white text, hairline white border (`rgba(255, 255, 255, 0.12)`). On hover, background transitions to `rgba(255, 255, 255, 0.10)`.
+
+### Status Badges & Pills
+Pill-shaped containers with `0.25rem 0.75rem` padding. 
+- **Standard:** Background `rgba(255, 255, 255, 0.06)`, border `rgba(255, 255, 255, 0.10)`, text `label-sm` Mist Gray.
+- **Hazard / Warning:** Background `rgba(251, 146, 60, 0.12)`, border `rgba(251, 146, 60, 0.30)`, text `tertiary_color_hex` (`#FB923C`), accompanied by a pulsing 6px circular dot indicator.
+
+### Input Fields (Location Search)
+Recessed pill container with background `rgba(15, 23, 42, 0.80)`, backdrop blur `16px`, and an inset shadow. Active focus shifts the border from subtle white to `#00F2FE` with a soft `4px` outer cyan ring at `20%` opacity. Placeholder text rendered in Overcast Slate (`#475569`).
+
+### Hourly Timeline Strip
+A horizontal flex-rail consisting of uniform glass capsules (`rounded-2xl`). Each capsule contains the hour (`label-sm`), weather condition icon (24px monoline glyph), precipitation probability in `#38BDF8`, and temperature in `Space Grotesk`. The current hour is highlighted with an active Cyan border and subtle background tint.
+
+### Checkboxes & Segmented Toggles
+Segmented switches (e.g., Imperial vs. Metric, Radar layers) sit in a recessed dark glass trough. Active options are backed by an illuminated glass pill elevated with a soft `0 2px 8px rgba(0,0,0,0.3)`. Checkboxes feature rounded corners (`4px`), a `1px` translucent border, and fill with `#00F2FE` with a dark check icon when selected.
